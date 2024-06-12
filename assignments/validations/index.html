@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation</title>
+</head>
+<body>
+    <h1>validation</h1>
+    <form >
+        <label >Emial Id</label>
+        <input type="text" required><br><br>
+        <button>Login</button><br><br>
+        <label >Country1</label>
+        <input type="text" required readonly value="india"><br><br>
+        <button>Login</button><br><br>
+        <label >country2</label>
+        <input type="text" required disabled value="Nepal"><br><br>
+        <button>Login</button><br><br>
+        <label >Name</label>
+        <input type="text" required placeholder="enter your name" minlength="5" maxlength="25"><br><br>
+        <button>Login</button><br><br>
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number"  min="1" max="5"><br><br>
+        <button>submit</button> <br><br>
+
+        <label >phone number</label>
+        <input type="text" pattern="[6-9][0-9]{9}" required><br><br>
+        <button>Login</button><br><br>
+
+
+ 
+    </form>
+</body>
+</html>

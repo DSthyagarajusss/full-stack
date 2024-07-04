@@ -1,9 +1,4 @@
-//create variable
-var eid= 101
-//read
-console.log(eid)
-
-//update variable
-
-eid=102
-console.log(eid)
+var a=10;
+var b=101;
+var c=a/b;
+console.log(a+b/a+ b+c-a);

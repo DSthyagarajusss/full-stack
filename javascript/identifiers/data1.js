@@ -4,7 +4,7 @@ var Rating="4.9"
 var brand="free"
 var prod_Name="mens chack shirt"
 var avail="true"
-var discount;
+var discount
 
 
 console.log(typeof brand)

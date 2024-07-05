@@ -16,7 +16,7 @@ document.write(avail)
 document.write("<br>")
 document.write(eloc)
 document.write("<br>")
-document.write(eDetailes.sal)
-document.write("<br>")
-document.write(eDetailes.email)
+
+document.write(JSON.stringify(eDetailes))
+
 

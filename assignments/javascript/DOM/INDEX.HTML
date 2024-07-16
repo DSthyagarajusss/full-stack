@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./data.js" ></script>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    
+    <h1>Javascript Events </h1>
+    <br><br>
+
+    <div class="container">
+
+        <div class="Event">
+            <p><span>OnMouseover:</span><br>mouse over to change button background color</p>
+            <br>
+            <button onmouseover="TH()" id="mouseover" class="inputfield mouseover">Mouse over</button>
+        </div>
+        <br><br>
+       
+
+        <div class="Event">
+           <p> <span>OnMouseout:</span><br>mouse over to change button background color</p>
+            <br>
+            <button onmouseout="out()" id="outmouse" class="inputfield mouseover">Mouse Out</button>
+        </div>
+        <br><br>
+
+        <div class="Event">
+           <p> <span>Onclick:</span><br>Click to change button background color</p>
+            <br>
+            <button onclick="btn()" id="clickon" class="inputfield mouseover">Onclikck</button>
+        </div>
+        <br><br>
+        
+        <div class="Event">
+            <p><span>ondblclick:</span><br>Double Click to change button background color</p>
+            <br>
+            <button ondblclick="changeBackground()" id="dbclickon" class="inputfield mouseover">ondblclick</button>
+        </div>
+
+        <div class="Event">
+            <p><span>onfocus:</span><br>Click to change Input background color</label></p>
+            <br>
+            <input onfocus="RAJU()" onfocus="change()" type="text" id="focus" value="" class="inputfield focus">
+        </div>
+    
+
+        <div class="Event">
+            <p><span>onblur:</span><br>Change Lower case to uppper case onblur Events</p>
+            <br>
+            <input onblur="change()" type="text" id="change" value="" class="inputfield onblur">
+        </div>
+
+
+    </div>
+
+   </body>
+
+</html>

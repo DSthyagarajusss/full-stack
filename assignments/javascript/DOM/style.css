@@ -1,0 +1,52 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+    width: 100%;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+span {
+    font-size: 30px;
+}
+
+li {
+    padding: 4px;
+}
+
+.inputfield {
+    outline: none;
+    width: 200px;
+    background: red;
+    height: 40px;
+    color: white;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.4);
+
+  
+}
+
+.focus {
+    background: white;
+    color: black;
+}
+
+.onblur {
+    background: white;
+    color: black;
+}
+
+

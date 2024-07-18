@@ -997,12 +997,14 @@ let employee=[{"id":1,"Name":"Benoit Fowlston","salary":25231,"email":"bfowlston
     {"id":997,"Name":"Harald Vowell","salary":26698,"email":"hvowellro@cornell.edu","Gender":"Male","phone":"577-787-3773"},
     {"id":998,"Name":"Bard Delaprelle","salary":29923,"email":"bdelaprellerp@usda.gov","Gender":"Genderfluid","phone":"458-986-6784"},
     {"id":999,"Name":"Sidnee Bambrough","salary":28942,"email":"sbambroughrq@twitpic.com","Gender":"Male","phone":"632-506-7532"}]
-
+   
+   
+   
 
 function display_employees(){
     let rows=" "
    for(emp of employee){
-    if(emp.Gender ==='Male')
+    if(emp.Gender ==="Male")
     rows =rows + `<tr>
                         <td>${emp.id}</td>
                         <td>${emp.Name}</td>

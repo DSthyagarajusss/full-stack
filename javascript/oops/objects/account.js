@@ -5,6 +5,7 @@ class account{
     account_bal=200000
 
     open_Account(){
+        
     console.log("Account open successfuly")
     }
     deposit_amount(){

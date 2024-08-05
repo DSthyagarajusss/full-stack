@@ -1003,7 +1003,8 @@ let employee=[{"id":1,"Name":"Benoit Fowlston","salary":25231,"email":"bfowlston
 
 function display_employees(){
     let rows=" "
-  employee.forEach((user)=>{
+  employee.filter((user)=>{
+    if(user.Gender==="Male")
     rows+=`<tr>
             <td>${user.id}</td>
             <td>${user.Name}</td>

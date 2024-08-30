@@ -1,23 +1,26 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 
-function Reg() {
+function Regestraion() {
   let[user,setUser]=useState({username:"",password:"",DOB:"",})
   let updateHandler=(event)=>{
     event.preventDefault()
       setUser({...user,[event.target.name]:event.target.value})
-      console.log(user)
+     // console.log(user)
      
 
-  }
+}
+
+let btnref=useRef()
   let checkBoxHandler = (event)=>{
-    
-    setUser({...user,checked:event.target.checked})
+    console.log(event.target.checked)
+    btnref.current.disabled = !event.target.checked
+    //setUser({...user,checked:event.target.checked})
     
 }
-let subHandler=(event)=>{
-  event.preventDefault()
-  console.log(user)
-}
+// let subHandler=(event)=>{
+//   event.preventDefault()
+//   console.log(user)
+// }
 
 
   return<>
@@ -35,17 +38,17 @@ let subHandler=(event)=>{
               <input type="text" placeholder='User Name' className="form-control mt-2" onChange={updateHandler} name='username'/>
             </div>
             <div className="form-group">
-              <input type="password" placeholder='password' className="form-control mt-2" onChange={updateHandler} name='password' />
+            <input type="password" placeholder='password' className="form-control mt-2 " onChange={updateHandler} name='password' />
             </div>
             <div className="form-group">
               <input type="date" placeholder='password' className="form-control mt-2 " onChange={updateHandler} name='DOB'  />
             </div>
             <div class="form-check form-group">
-               <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onChange={checkBoxHandler} name='checkbox'/>
+               <input class="form-check-input" type="checkbox" value=""  onChange={checkBoxHandler} name='checkbox'/>
                <label class="form-check-label" for="flexCheckDefault">Accepct T&C</label>
             </div>
            < div className="form-group">
-           <input type="submit" value="login" className="btn btn-outline-success" onSubmit={subHandler}/>
+           <input type="submit" ref={btnref} value="login" className="btn btn-outline-success"  disabled/>
             </div>
            
           </div>
@@ -56,4 +59,5 @@ let subHandler=(event)=>{
   </form>
   </>
 }
-export default Reg
+
+export default Regestraion

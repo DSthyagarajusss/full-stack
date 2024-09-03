@@ -1,0 +1,12 @@
+fuction:-
+         * to crete a fuction we have to use def key word
+         * a group of statements for 
+        * fuction use reusabulity
+        *name less fuction using lambda ()=>{}
+
+INBUILT:
+argument type
+1).inner fuction
+2).recursce fuctions
+        #.map()
+        #.filter()

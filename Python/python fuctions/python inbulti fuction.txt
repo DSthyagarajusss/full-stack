@@ -17,3 +17,15 @@ argument type
         #.defulat arguments
         #. keyword 
         #.variable length arguments
+
+
+# map()::
+
+
+#decorator:
+--is function,it take one fuction is an argument 
+--t modify the fuctionality,and return modified functoin
+
+# types of decorators :
+1.@classmethod 
+2.static method

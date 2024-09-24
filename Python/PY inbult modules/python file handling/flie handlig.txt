@@ -1,0 +1,32 @@
+json.loads:
+            convert json data to py obj
+json.dumps():
+            covert python object to json type
+
+
+
+#### how to convert json to py
+import json 
+
+emp_json="""{ 
+    "id":101,
+    "name":"rahul",
+    "age":21,
+    "avl":true,
+    "loc":"undefine",
+    "sal":22222
+}"""
+emp_obj=json.loads(emp_json)
+print(type(emp_obj))
+print(emp_obj)
+
+
+##how to covert py dict to json 
+
+
+import json 
+emp_dict={'id': 101, 'name': 'rahul', 'age': 21, 'avl': True, 'loc': 'undefine', 'sal': 22222}
+emp_obj=json.dumps(emp_dict)
+print(type(emp_obj))
+print(emp_obj)
+        

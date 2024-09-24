@@ -10,3 +10,22 @@ argument type
 2).recursce fuctions
         #.map()
         #.filter()
+
+
+# actual arguments are 4 types 
+        #.POSITIONAL ARGUMENTS
+        #.defulat arguments
+        #. keyword 
+        #.variable length arguments
+
+
+# map()::
+
+
+#decorator:
+--is function,it take one fuction is an argument 
+--it modify the fuctionality,and return modified functoin
+
+# types of decorators :
+1.@classmethod 
+2.static method

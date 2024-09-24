@@ -1,0 +1,4 @@
+module:
+        1.user difined modules (math,random,csv,json,
+        2.inbuilt module
+each py file acting as a module

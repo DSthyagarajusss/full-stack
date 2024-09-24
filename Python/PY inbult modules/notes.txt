@@ -1,0 +1,13 @@
+module:
+        1.user difined modules (math,random,csv,json)
+        2.inbuilt module
+each py file acting as a module
+
+
+module requests
+json: 1.load(),loads() 2.dump(),dumps()
+
+rest API:get,post,put,delete
+
+CsV: reader(),write(),writerow()
+

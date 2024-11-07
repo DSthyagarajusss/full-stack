@@ -1,0 +1,31 @@
+1)how to create database.?
+ans:  create database raju;
+2) how to select database.?
+use raju
+3. how to crate a table .? 
+
+create table employee(
+eid int,
+ename varchar(32),
+salary float,
+elocation varchar(45)
+);
+
+4.how to read table schema..?
+
+desc employee
+
+5.how to insert data into table..?
+
+insert into employee values
+(101,'raju',33233,'bengalure'),
+(102,'ramu',40000,'Thotakanuma'),
+(103,'rahul',44545,'USA'),
+(104,'komal',343245,'Pune'),
+(105,'yamuna',366553,'vijayavada'),
+(106,'yassin',877876,'kr purram'),
+(107,'gopi',90000,'hosaroad')
+
+
+6. how to read a table ..?
+Select * from employeee
